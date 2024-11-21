@@ -14,7 +14,11 @@ import {
   CardsSkeleton,
 } from "@/app/ui/skeletons";
 import CardWrapper from "@/app/ui/dashboard/cards";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Dashboard",
+};
 export default async function DashBoard() {
   // const revenue = await fetchRevenue();
   // const latestInvoices = await fetchLatestInvoices();
